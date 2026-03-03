@@ -4,20 +4,26 @@ import { useEffect, useState, useCallback } from "react";
 import { useRouter } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
 import Link from "next/link";
+import { Variants } from "framer-motion";
 
 const stagger = {
     hidden: {},
     visible: { transition: { staggerChildren: 0.1 } },
 };
 
-const fadeUp = {
-    hidden: { opacity: 0, y: 20 },
+
+const fadeUp: Variants = {
+    hidden: { opacity: 0, y: 24 },
     visible: {
         opacity: 1,
         y: 0,
-        transition: { duration: 0.55, ease: [0.22, 1, 0.36, 1] },
+        transition: {
+            duration: 0.6,
+            ease: "easeOut",
+        },
     },
 };
+
 
 type Subject = { name: string; hindi: string; desc: string; file: string; code: string };
 
