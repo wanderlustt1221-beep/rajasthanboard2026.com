@@ -236,7 +236,7 @@ export default function LoginPage() {
                                 className="flex flex-col gap-4"
                             >
                                 <p className="text-xs font-sans leading-relaxed" style={{ color: "#6b7280" }}>
-                                    Enter the mobile number you used during registration to access your predictor papers.
+                                    Enter the mobile number you used during registration to access your exam papers.
                                 </p>
 
                                 <div>
@@ -296,3 +296,4 @@ export default function LoginPage() {
     );
 
 }
+
