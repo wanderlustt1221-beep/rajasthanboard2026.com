@@ -91,7 +91,7 @@ export default function LoginPage() {
                     RB
                 </div>
                 <span className="text-sm font-semibold tracking-wide" style={{ color: "#1e3a5f", fontFamily: "Georgia, serif" }}>
-                    Rajasthan Board Predictor
+                    Rajasthan Board
                 </span>
             </motion.div>
 
@@ -108,7 +108,7 @@ export default function LoginPage() {
                         Student Access Portal
                     </h1>
                     <p className="text-xs font-sans tracking-wide" style={{ color: "#7c2d12" }}>
-                        Rajasthan Board Predictor Papers 2026
+                        Rajasthan Board Papers 2026 - Class 9th & 11th
                     </p>
                 </div>
 
@@ -290,8 +290,9 @@ export default function LoginPage() {
                 className="mt-8 text-xs font-sans text-center"
                 style={{ color: "#c4b8a8" }}
             >
-                © 2026 Rajasthan Board Predictor Portal. All Rights Reserved.
+                © 2026 Rajasthan Board Exam Portal. All Rights Reserved.
             </motion.p>
         </main>
     );
+
 }
