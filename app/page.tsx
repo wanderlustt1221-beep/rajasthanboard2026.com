@@ -180,7 +180,7 @@ export default function Home() {
               className="text-lg md:text-xl font-sans leading-relaxed mb-4 max-w-2xl mx-auto"
               style={{ color: "#374151" }}
             >
-              Comprehensive exam-focused papers for Class 9 and Class 11 students
+              Comprehensive exam papers for Class 9 and Class 11 students
               appearing in the Rajasthan Board Annual Examination 2026.
             </motion.p>
 
